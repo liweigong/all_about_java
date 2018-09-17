@@ -6,6 +6,11 @@ package com.armeng.java.advanced.thread.status;
  */
 public class InterruptReset extends Object{
 
+    /**
+     * Thread.interrupted() 这个静态方法，会有自动重置interrupted状态的机制.
+     *
+     */
+
     public static void main(String[] args) {
         System.out.println(
                 "Point X: Thread.interrupted()=" + Thread.interrupted());
